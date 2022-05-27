@@ -1,2 +1,2 @@
 # Login-Card
-A login card with a half transparent background
+A login card with a transparent "glass" background
