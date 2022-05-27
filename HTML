@@ -1,0 +1,20 @@
+<section class="form-section">
+  <!-- I would normally have one form element with our inputs inside, but because I wanted the transparent and black halves for the background I set them in a section and made the form after those and used CSS to position everyting the way we want inside the section -->
+  <div class="form-top">
+  </div>
+  <div class="form-bottom">
+  </div>
+  <form>
+    <div class="form-group">
+      <label id="username-label" for="Username">Username: </label>
+      <input type="text" id="Username" placeholder="Username" required />
+    </div>
+    <div class="form-group">
+      <label id="password-label" for="Password">Password: </label>
+      <input type="password" id="Password" placeholder="Password" required>
+    </div>
+    <button id="submit-button">Submit</button>
+  </form>
+  <img id="profile-photo" src="http://drive.google.com/uc?export=view&id=1aU9Yne6hUfKec59L-oz5ivm3gD1gWtZC" alt="profile-photo">
+  <!-- The profile photo wasn't housed in either of the background divs because I wanted it to sit above them both closer to the center of the whole section rather than in the transparent top div -->
+</section>
