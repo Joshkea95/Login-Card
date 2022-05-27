@@ -1,0 +1,58 @@
+html {
+  font-size: 10px;
+  color: white;
+}
+body {
+  background-image: url("http://drive.google.com/uc?export=view&id=1tDVqsDo95yNvdc_XRAfkpWdYOC8yhfNl");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+.form-top {
+  height: 270px;
+  width: 600px;
+  box-shadow: -15px -10px 30px #000000;
+  filter: blur(2px);
+  /* You can create this glass effect by not setting abackground color and applying a box shadow to the div with the blur filter on. The blur can be intensified by setting a heigher px value */
+}
+.form-bottom {
+  background: #352e26;
+  height: 300px;
+  width: 600px;
+  clip-path: polygon(0 32%, 100% 0, 100% 100%, 0% 100%);
+  margin: -100px 0px 0px 0px;
+}
+#profile-photo {
+  position: absolute;
+  margin: 50px auto;
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+}
+form {
+  position: absolute;
+  margin: 300px auto;
+  font: 2rem Monospace;
+}
+.form-group {
+  padding: 5px 0px 5px 0px;
+}
+input {
+  border-radius: 5px;
+  font: 2rem Monospace;
+}
+#submit-button {
+  font: 2rem Monospace;
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
+}
+#submit-button:hover {
+  background: #81905c;
+}
